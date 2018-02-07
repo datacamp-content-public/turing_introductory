@@ -1,39 +1,37 @@
 ---
 title: Test
-description: Test
+description: >-
+  Test
+
 
 ---
-## Sample exercise
+## Hello, World!
 
 ```yaml
 type: NormalExercise
 lang: python
 xp: 100
 skills: 2
-key: 9f00cf9d3a
+key: a56cc9e540
 ```
 
+Let's do a Python "Hello World".
 
 `@instructions`
+print Hello, World!
 
 `@hint`
+use print(string)
 
-`@pre_exercise_code`
-```{python}
 
-```
-
-`@sample_code`
-```{python}
-
-```
 
 `@solution`
 ```{python}
-
+print("Hello, World!")
 ```
-
 `@sct`
 ```{python}
-
+return True
 ```
+
+
